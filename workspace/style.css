@@ -1,8 +1,13 @@
+body{
+    height: 100vh;
+    justify-content: center;
+}
 .purchased {
     text-decoration: line-through;
     color: yellowgreen;
 }
 .container {
+    max-width: 800px;
     max-width: 500px;
     margin: 0 auto;
     padding: 20px;
@@ -10,4 +15,11 @@
     border-radius: 5px;
     background: transparent;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.btn{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
 }
